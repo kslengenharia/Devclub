@@ -1,0 +1,67 @@
+ /*
+ https://color.adobe.com/pt/create/color-wheel
+    CSS
+    => Folha de estilo em cascata, le de cima para baixo
+
+    UNIDADES DE MEDIDAS
+
+    ABSOLUTAS
+        px (pixels)
+        in (inches/olegadas)
+        cm / mm (centimetro / milímero)
+
+    RELATIVAS
+        % calcula o tamanho relativo do elemento pai
+        vw (view width) 1vw é 1% da largura da janela do navegador
+        vh (view height) 1 vh é 1% da altura da janela do navegador
+        em é uma unidade de medida relativa ao elemento pai
+        rem é uma unidade de medida relativa ao elemento raiz
+ */
+
+h1 {
+    background: rgb(red, green, blue); /* para usar RGB*/
+}
+
+  #titulo {
+    color: red;
+    font-size: 55px;
+  }
+
+  #paragrafo {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #botao{
+    color: purple;
+  }
+
+
+  .texto{
+    color: palevioletred;
+  }
+
+/*vw (view width) 1vw é 1% da largura da janela do navegador
+        vh (view height) 1 vh é 1% da altura da janela do navegador
+         */
+  .vo{
+    font-size: 16px;
+  }
+
+  .pai{
+    font: size 16px;
+    width: 50vw;
+    height: 100vh;
+    background: blue; 
+    color: white; 
+    font-size: 32em;
+  }
+
+  .filho {
+    width: 50%;
+    height: 50%;
+    background: red;
+    color: white;
+    font-size: 0.5em;
+  }
